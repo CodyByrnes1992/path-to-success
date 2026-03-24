@@ -157,9 +157,11 @@ nav a {
     text-decoration: none;
     text-align: center;
 }
-header{
-    color:var(--dark-gray);
+nav h2 {
+    font-size: 1.5em;
+    color: var(--dark-gray);
     text-align: center;
+    font-style: italic;
 }
 #container{
     background-color: var(--teal);
@@ -173,9 +175,6 @@ h1{
 }
 h1, h2{
     font-family: var(--h1-font);
-}
-nav h2{
-    font-size: 1.5em;
 }
 
 h2{
