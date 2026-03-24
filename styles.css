@@ -153,6 +153,9 @@ table {
 header{
     background-color: var(--teal);
 }
+header p{
+    color: var(--white);
+}
 nav{
     background-color: var(--yellow);
 }
