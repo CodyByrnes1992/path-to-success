@@ -7,7 +7,10 @@ v2.0 | 20110126 License: none (public domain) */
     --body-font: inter;
     /*Colors */
     --bg-color: #6B8FE7;
-    --services-color: #484FB7;
+    --yellow: #E9BB57;
+    --teal: #484FB7;
+    --pink: #D9526F;
+   --white: #ffffff;
 }
 html,
 body,
@@ -142,7 +145,12 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
+nav{
+    background-color: var(--yellow);
+}
+a{
+    background-color: var(--white);
+}
 h1{
     font-family: var(--h1-font);
     font-size: 3em;
@@ -166,5 +174,17 @@ h4{
 }
 
 #services{
-    background-color: var(--services-color);
+    background-color: var(--teal);
+}
+
+#choose{
+    background-color: var(--pink);
+}
+
+#prices{
+    background-color: var(--teal);
+}
+
+#steps{
+    background-color: var(--pink);
 }
