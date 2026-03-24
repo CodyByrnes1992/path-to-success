@@ -1,7 +1,7 @@
 /* http: //meyerweb.com/eric/tools/css/reset/ 
 
 v2.0 | 20110126 License: none (public domain) */ 
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 :root{
     --h1-font: Kavoon;
     --body-font: inter;
@@ -123,7 +123,7 @@ body {
     line-height: 1;
     max-width: 450px;
     background-color: var(--purple);
-    font-family: var(--body-font);
+    
     margin: 0 auto;
     
 }
@@ -195,7 +195,7 @@ h3{
 
 h4{
     font-size: 1.15em;
-    color: var(--lavender);
+    color: var(--teal);
 }
 
 #services section{
