@@ -6,11 +6,14 @@ v2.0 | 20110126 License: none (public domain) */
     --h1-font: Kavoon;
     --body-font: inter;
     /*Colors */
-    --bg-color: #6B8FE7;
+    --purple: #6B8FE7;
     --yellow: #E9BB57;
     --teal: #484FB7;
     --pink: #D9526F;
    --white: #ffffff;
+   --lavender: #6B8FE7;
+   --dark-gray: #1E1E1E;
+   
 }
 html,
 body,
@@ -119,7 +122,7 @@ section {
 body {
     line-height: 1;
     max-width: 450px;
-    background-color: var(--bg-color);
+    background-color: var(--purple);
     font-family: var(--body-font);
 }
 
@@ -164,13 +167,16 @@ nav h2{
 
 h2{
     font-size: 2em;
+    color: var(--white);
 }
 h3{
     font-size: 1.5em;
+    color: var(--yellow);
 }
 
 h4{
     font-size: 1.15em;
+    color: var(--lavender);
 }
 
 #services{
