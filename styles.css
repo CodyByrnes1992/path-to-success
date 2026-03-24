@@ -213,9 +213,12 @@ h4{
 #steps{
     background-color: var(--pink);
 }
-
+table{
+    text-align: center;
+}
 th{
     background-color: var(--yellow);
+    font-weight: bold;
 }
 
 td{
