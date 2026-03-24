@@ -215,6 +215,7 @@ h4{
 }
 table{
     text-align: center;
+    
 }
 th{
     background-color: var(--yellow);
@@ -223,4 +224,10 @@ th{
 
 td{
     background-color: var(--white);
+}
+#steps p{
+    color: var(--white);
+}
+footer small{
+    color: var(--white);
 }
