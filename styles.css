@@ -4,6 +4,10 @@ v2.0 | 20110126 License: none (public domain) */
 
 :root{
     --h1-font: Kavoon;
+    --body-font: inter;
+    /*Colors */
+    --bg-color: #6B8FE7;
+    
 }
 html,
 body,
@@ -112,7 +116,7 @@ section {
 body {
     line-height: 1;
     max-width: 450px;
-    
+    background-color: var(--bg-color);
 }
 
 ol,
@@ -136,4 +140,24 @@ q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+h1{
+    font-family: var(--h1-font);
+    font-size: 3em;
+}
+
+nav h2{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.5em;
+}
+
+h4{
+    font-size: 1.15em;
 }
