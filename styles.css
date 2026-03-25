@@ -177,13 +177,14 @@ nav h2 {
     font-style: italic;
     padding: 10px;
 }
+ul li{
+    background-color: var(--white);
+    padding: 10px;
+}
 #container{
     background-color: var(--teal);
 }
-a{
-    background-color: var(--white);
-    
-}
+
 h1{
     font-family: var(--h1-font);
     font-size: 3em;
