@@ -161,11 +161,14 @@ header p{
 }
 nav{
     background-color: var(--yellow);
-    padding: 20px;
+    padding: 10px;
 }
 nav a {
     text-decoration: none;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    
 }
 nav h2 {
     font-size: 1.5em;
@@ -179,6 +182,7 @@ nav h2 {
 }
 a{
     background-color: var(--white);
+    
 }
 h1{
     font-family: var(--h1-font);
@@ -205,8 +209,11 @@ h4{
 
 #services section{
     background-color: var(--white);
+    
 }
-
+section{
+    padding: 10px;
+}
 #choose{
     background-color: var(--pink);
 }
