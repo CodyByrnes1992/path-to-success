@@ -123,7 +123,6 @@ body {
     line-height: 1;
     max-width: 450px;
     background-color: var(--purple);
-    
     margin: 0 auto;
     
 }
@@ -152,12 +151,16 @@ table {
 }
 header{
     background-color: var(--teal);
+    text-align: center;
 }
 header p{
     color: var(--white);
+    font-style: italic;
+    padding: 10px;
 }
 nav{
     background-color: var(--yellow);
+    padding: 20px;
 }
 nav a {
     text-decoration: none;
