@@ -152,6 +152,7 @@ table {
 header{
     background-color: var(--teal);
     text-align: center;
+    padding: 20px;
 }
 header p{
     color: var(--white);
@@ -171,6 +172,7 @@ nav h2 {
     color: var(--dark-gray);
     text-align: center;
     font-style: italic;
+    padding: 10px;
 }
 #container{
     background-color: var(--teal);
