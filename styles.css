@@ -202,7 +202,6 @@ h2{
 h3{
     font-size: 1.5em;
     color: var(--yellow);
-   
 }
 h2, h3{
     padding: 5px;
@@ -214,14 +213,16 @@ h4{
 
 #services section{
     background-color: var(--white);
-    
+    padding: 30px;
+    border-radius: 15px;
 }
 section{
     padding: 25px;
-    border-radius: 15px;
+    margin-bottom: 10px;
 }
 #choose{
     background-color: var(--pink);
+    
 }
 
 #prices{
