@@ -190,6 +190,7 @@ h1{
     font-size: 3em;
     color: var(--white);
 }
+
 h1, h2{
     font-family: var(--h1-font);
 }
@@ -201,8 +202,11 @@ h2{
 h3{
     font-size: 1.5em;
     color: var(--yellow);
+   
 }
-
+h2, h3{
+    padding: 5px;
+}
 h4{
     font-size: 1.15em;
     color: var(--teal);
@@ -213,7 +217,8 @@ h4{
     
 }
 section{
-    padding: 10px;
+    padding: 25px;
+    border-radius: 15px;
 }
 #choose{
     background-color: var(--pink);
