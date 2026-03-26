@@ -178,7 +178,7 @@ nav h2 {
     font-style: italic;
     padding: 10px;
 }
-ul li{
+#links li{
     background-color: var(--white);
     padding: 10px;
 }
@@ -225,6 +225,7 @@ section{
     background-color: var(--pink);
     
 }
+
 
 #prices{
     background-color: var(--teal);
