@@ -165,6 +165,7 @@ nav{
 }
 nav a {
     text-decoration: none;
+    text-transform: uppercase;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -218,7 +219,7 @@ h4{
 }
 section{
     padding: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 #choose{
     background-color: var(--pink);
@@ -234,24 +235,32 @@ section{
 #steps{
     background-color: var(--pink);
     padding: 10px;
+    margin-top: 10px;
 }
 #steps p {
     color: var(--white);
 }
 table{
     text-align: center;
-   
+    margin: 0 80px;
 }
 th{
     background-color: var(--yellow);
     font-weight: bold;
     padding: 10px;
+    text-transform: uppercase;
 }
 
 td{
     background-color: var(--white);
-    padding: 20px;
+    padding: 10px;
 }
+
+table, th, td{
+    border: 2px solid var(--yellow);
+    width: 60%;
+}
+
 footer{
     padding: 20px;
 }
