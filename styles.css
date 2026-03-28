@@ -169,6 +169,8 @@ nav a {
     text-align: center;
     display: flex;
     justify-content: center;
+    color: var(--purple);
+    font-weight: bold;
     
 }
 nav h2 {
@@ -215,8 +217,11 @@ h4{
     font-size: 1.15em;
     margin-bottom: 10px;
     color: var(--teal);
+    font-weight: bold;
 }
-
+img{
+    padding: 15px;
+}
 #services section{
     background-color: var(--white);
     padding: 30px;
@@ -242,8 +247,9 @@ section{
 
 #steps{
     background-color: var(--pink);
-    padding: 10px;
+    padding: 20px;
     margin-top: 10px;
+    
 }
 #steps p {
     color: var(--white);
@@ -279,9 +285,9 @@ footer small{
 }
 input{
     padding: 20px;
-    width: 350px;
+    width: 290px;
     margin-top: 5px;
-    margin-left: 20px;
+    margin-left: 25px;
     border-radius: 15px;
     font-weight: bold;
     text-transform: uppercase;
