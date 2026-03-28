@@ -183,7 +183,7 @@ nav h2 {
     padding: 10px;
     margin: 10px;
 }
-#container{
+main{
     background-color: var(--teal);
 }
 p{
@@ -230,7 +230,9 @@ section{
     background-color: var(--pink);
     
 }
-
+#choose p{
+    font-weight: bold;
+}
 
 #prices{
     background-color: var(--teal);
@@ -245,6 +247,7 @@ section{
 }
 #steps p {
     color: var(--white);
+    
 }
 table{
     text-align: center;
