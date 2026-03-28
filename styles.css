@@ -181,6 +181,7 @@ nav h2 {
 #links li{
     background-color: var(--white);
     padding: 10px;
+    margin: 10px;
 }
 #container{
     background-color: var(--teal);
