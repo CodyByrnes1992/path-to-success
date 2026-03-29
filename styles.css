@@ -1,7 +1,11 @@
-/* http: //meyerweb.com/eric/tools/css/reset/ 
 
-v2.0 | 20110126 License: none (public domain) */ 
+/*CSS BY Cody Byrnes*/
+
+/*v2.0 | 20110126 License: none (public domain) */ 
+
+/*IMPORTED FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+/*ROOT VARIABLES*/
 :root{
     --h1-font: Kavoon;
     --body-font: inter;
@@ -15,6 +19,8 @@ v2.0 | 20110126 License: none (public domain) */
    --dark-gray: #1E1E1E;
    
 }
+/* http: //meyerweb.com/eric/tools/css/reset/ 
+/*CSS RESET*/
 html,
 body,
 div,
@@ -238,7 +244,12 @@ section{
 #choose p{
     font-weight: bold;
 }
-
+#choose ul{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    justify-content: center;
+}
 #prices{
     background-color: var(--teal);
     padding: 20px;
