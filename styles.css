@@ -8,7 +8,7 @@
 /*ROOT VARIABLES*/
 :root{
     --h1-font: Kavoon;
-    --body-font: inter;
+    --body-font: Inter;
     /*Colors */
     --purple: #6B8FE7;
     --yellow: #E9BB57;
@@ -130,7 +130,7 @@ body {
     max-width: 450px;
     background-color: var(--purple);
     margin: 0 auto;
-    
+    font-family: var(--body-font);
 }
 
 ol,
@@ -199,7 +199,7 @@ p{
 
 }
 h1{
-    font-family: var(--h1-font);
+    font-family: 'Kavoon';
     font-size: 3em;
     color: var(--white);
 }
@@ -248,8 +248,12 @@ section{
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px;
+    height: 150px;
+    text-align: center;
     justify-content: center;
+    padding: 25px;
 }
+
 #prices{
     background-color: var(--teal);
     padding: 20px;
